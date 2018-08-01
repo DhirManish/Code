@@ -1,7 +1,0 @@
-Potential Fixes
-
-1. Removed index.lock file from Folder
-2. Aborted the existing merge using git merge --abort
-3. Pulled the unrelated histories changes to Local using --allow-unrelated-histories
-4. added files and commited 
-5. Pushed the changes to master
