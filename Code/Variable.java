@@ -12,10 +12,8 @@ class var{
 	public double db;
 	public String s;
 	
-	//void vartype(Object obj){
-		
+	//void vartype(Object obj){		
 		//System.out.println(type(obj));
-				
 	//}
 
 }
