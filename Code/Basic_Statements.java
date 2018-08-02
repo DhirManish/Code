@@ -1,5 +1,24 @@
 class Conditional_statement {
-
+	
+	String sw;
+	
+	public void makeswitch(){
+		
+		switch (sw) {
+			
+			case "If" :
+				System.out.println("If statement");
+				break;
+			case "else" :
+				System.out.println("Else statement");
+				break;
+			default :
+				System.out.println("default");
+				break;
+		}
+		
+	}
+	
 	public Boolean CS(Boolean b){
 		
 		if (b){
@@ -14,7 +33,9 @@ class Conditional_statement {
 			System.out.println("FALSE");
 			return false;
 		}
+		
 	}
+	
 	
 }
 
@@ -49,7 +70,6 @@ class Looping_statement{
 		
 	}
 
-	
 }
 
 class Flow_Control_Statement{
@@ -72,7 +92,9 @@ public class Basic_Statements{
 		
 		LP.loop();
 		
-		
+		cst.sw = "If";
+			
+		cst.makeswitch();
 		
 	}
 
