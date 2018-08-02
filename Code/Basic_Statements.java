@@ -74,8 +74,18 @@ class Looping_statement{
 
 class Flow_Control_Statement{
 	
+	int [] number = {10,11,12,13,14};
 	
+	public void Control_n_foreach(){
 	
+		for ( int x : number ) {
+			if ( x == 11) {
+				continue;
+			}
+		System.out.println(x);
+		System.out.println("\n");
+		}
+	}
 }
 
 public class Basic_Statements{
@@ -95,6 +105,10 @@ public class Basic_Statements{
 		cst.sw = "If";
 			
 		cst.makeswitch();
+			
+		Flow_Control_Statement FCS = new Flow_Control_Statement();
+		
+		FCS.Control_n_foreach();
 		
 	}
 
