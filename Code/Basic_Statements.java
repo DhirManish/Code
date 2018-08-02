@@ -20,7 +20,35 @@ class Conditional_statement {
 
 class Looping_statement{
 
-	
+	public void loop(){
+		
+		int i;
+		
+		for (i = 1; i <= 10 ; i++) {
+			
+			System.out.println("Iteration : ");
+			
+			System.out.println(i);
+			
+			while (i < 5) {
+			
+				System.out.println("Entry Control Loop is running, Iteration : " + i);
+				
+				i++;
+			}
+		
+			do {
+			
+				System.out.println("Exit Control loop is running, Iteration : " + i);
+				
+				i = i + 1;
+				
+			} while ( i <= 10);
+			
+		}
+		
+	}
+
 	
 }
 
@@ -39,6 +67,12 @@ public class Basic_Statements{
 		Boolean bool = true;
 		
 		cst.CS(bool);
+			
+		Looping_statement LP = new Looping_statement();
+		
+		LP.loop();
+		
+		
 		
 	}
 
