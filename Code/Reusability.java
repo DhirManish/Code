@@ -18,6 +18,11 @@ class class_for_reuseable_method_string_operations_under_dev{
 		System.out.println("reverse of " + s + "is : " + new String(result));
 		
 	}
+	
+	public void Repeated_character_in_String(){
+		
+	}
+	
 
 }
 
