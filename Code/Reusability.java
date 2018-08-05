@@ -15,7 +15,7 @@ class class_for_reuseable_method_string_operations_under_dev{
 		for(int i = 0; i < strunderaction.length; i++)
 			result[i] =strunderaction[strunderaction.length-i-1];
 		
-		System.out.println(new String(result));
+		System.out.println("reverse of " + s + "is : " + new String(result));
 		
 	}
 
