@@ -23,19 +23,25 @@ class class_for_reuseable_method_string_operations_under_dev{
 		
 		String under_action = "Reverse";
 		
-		byte temp;
-		
 		byte[] strbytes = under_action.getBytes();
 		
 		byte[] result_str = new byte [strbytes.length];
 		
+		byte[] temp = new byte [strbytes.length];
+		
 		for(int j = 0; j < strbytes.length; j++){
 				
-				if (result_str[j] == 'e') {
-					
-					System.out.println();
-					
-				}
+			if (strbytes[j] == 'e') {
+				
+				temp[j] = strbytes[j];
+				
+				//System.out.println(strbytes[j]);
+				
+				System.out.println(new String(temp));
+
+				System.out.println(new String(strbytes));	
+				
+			}
 		
 		}
 		
