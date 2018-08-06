@@ -35,10 +35,6 @@ class class_for_reuseable_method_string_operations_under_dev{
 				
 				temp[j] = strbytes[j];
 				
-				//System.out.println(new String(temp));
-
-				//System.out.println(new String(strbytes));	
-				
 			}
 		
 		}
