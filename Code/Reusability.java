@@ -19,7 +19,7 @@ class class_for_reuseable_method_string_operations_under_dev{
 		
 	}
 	
-	public void Repeated_character_in_String(){
+	public void Repeated_character_in_String_using_Byte(){
 		
 		String under_action = "Reverse";
 		
@@ -58,7 +58,7 @@ public class Reusability{
 		
 		c.reverse();
 		
-		c.Repeated_character_in_String();
+		c.Repeated_character_in_String_using_Byte();
 	}
 	
 }
