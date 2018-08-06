@@ -21,6 +21,24 @@ class class_for_reuseable_method_string_operations_under_dev{
 	
 	public void Repeated_character_in_String(){
 		
+		String under_action = "Reverse";
+		
+		byte temp;
+		
+		byte[] strbytes = under_action.getBytes();
+		
+		byte[] result_str = new byte [strbytes.length];
+		
+		for(int j = 0; j < strbytes.length; j++){
+				
+				if (result_str[j] == 'e') {
+					
+					System.out.println();
+					
+				}
+		
+		}
+		
 	}
 	
 
@@ -34,6 +52,7 @@ public class Reusability{
 		
 		c.reverse();
 		
+		c.Repeated_character_in_String();
 	}
 	
 }
