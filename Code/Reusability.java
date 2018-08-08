@@ -6,6 +6,8 @@ class class_for_reuseable_method_string_operations_under_dev{
 
 	String s = "Hello";
 	
+	 static String under_action = "Reverse";
+	
 	public void reverse(){
 		
 		byte[] strunderaction = s.getBytes();
@@ -20,8 +22,6 @@ class class_for_reuseable_method_string_operations_under_dev{
 	}
 	
 	public void Repeated_character_in_String_using_Byte(){
-		
-		String under_action = "Reverse";
 		
 		byte[] strbytes = under_action.getBytes();
 		
@@ -38,10 +38,14 @@ class class_for_reuseable_method_string_operations_under_dev{
 			}
 		
 		}
-		
-		System.out.println(new String(strbytes));	
 			
 		System.out.println(new String(temp));
+		
+	}
+	
+	public static String PrintValue(){
+		
+		return under_action;
 		
 	}
 	
@@ -54,7 +58,14 @@ public class Reusability{
 		
 		class_for_reuseable_method_string_operations_under_dev c = new class_for_reuseable_method_string_operations_under_dev();
 		
+		//void cannot be deferenced 
+		//System.out.println(" Repeated characters in string : " + c.reverse().under_action );
+		
+		//Created another method "PrintValue" to print the value of reverse function
+		
 		c.reverse();
+		
+		System.out.println("Repeated characters in string " + class_for_reuseable_method_string_operations_under_dev.PrintValue() + " is : " );
 		
 		c.Repeated_character_in_String_using_Byte();
 	}
