@@ -49,6 +49,10 @@ class class_for_reuseable_method_string_operations_under_dev{
 		
 	}
 	
+	public void Character_finder_within_String(){
+	
+	}
+	
 }
 
 public class Reusability{
@@ -59,7 +63,6 @@ public class Reusability{
 		
 		//void cannot be deferenced 
 		//System.out.println(" Repeated characters in string : " + c.reverse().under_action );
-		
 		//Created another method "PrintValue" to print the value of reverse function
 		
 		c.reverse();
