@@ -8,6 +8,8 @@ class class_for_reuseable_method_string_operations_under_dev{
 	
 	static String under_action = "Reverse";
 	
+	static int j;
+	
 	public void reverse(){
 		
 		byte[] strunderaction = s.getBytes();
@@ -29,29 +31,23 @@ class class_for_reuseable_method_string_operations_under_dev{
 		
 		byte[] temp = new byte [strbytes.length];
 		
-		for(int j = 0; j < strbytes.length; j++){
+		for(j = 0; j < strbytes.length; j++){
 				
 			if (strbytes[j] == c) {
 				
 				temp[j] = strbytes[j];
-				
+			
+				System.out.println("Index of " + new String(temp) + "is " +j);
+		
 			}
 		
 		}
-			
-		System.out.println(new String(temp));
 		
 	}
 	
 	public static String PrintValue(){
 		
 		return under_action;
-		
-	}
-	
-	public void Character_finder_within_String(){
-		
-		
 		
 	}
 	
@@ -71,7 +67,10 @@ public class Reusability{
 		
 		System.out.println("Repeated characters in string " + class_for_reuseable_method_string_operations_under_dev.PrintValue() + " is : " );
 		
-		c.Repeated_character_in_String_using_Byte('e');
+		c.Repeated_character_in_String_using_Byte('s');
+
+		//System.out.println("character is at index : " + j);
+		
 	}
 	
 }
