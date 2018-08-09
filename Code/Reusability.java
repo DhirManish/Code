@@ -68,8 +68,6 @@ public class Reusability{
 		System.out.println("Repeated characters in string " + class_for_reuseable_method_string_operations_under_dev.PrintValue() + " is : " );
 		
 		c.Repeated_character_in_String_using_Byte('s');
-
-		//System.out.println("character is at index : " + j);
 		
 	}
 	
