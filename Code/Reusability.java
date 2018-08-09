@@ -6,7 +6,7 @@ class class_for_reuseable_method_string_operations_under_dev{
 
 	String s = "Hello";
 	
-	 static String under_action = "Reverse";
+	static String under_action = "Reverse";
 	
 	public void reverse(){
 		
@@ -50,7 +50,9 @@ class class_for_reuseable_method_string_operations_under_dev{
 	}
 	
 	public void Character_finder_within_String(){
-	
+		
+		
+		
 	}
 	
 }
