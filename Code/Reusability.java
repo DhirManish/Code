@@ -21,7 +21,7 @@ class class_for_reuseable_method_string_operations_under_dev{
 		
 	}
 	
-	public void Repeated_character_in_String_using_Byte(){
+	public void Repeated_character_in_String_using_Byte(char c){
 		
 		byte[] strbytes = under_action.getBytes();
 		
@@ -31,7 +31,7 @@ class class_for_reuseable_method_string_operations_under_dev{
 		
 		for(int j = 0; j < strbytes.length; j++){
 				
-			if (strbytes[j] == 'e') {
+			if (strbytes[j] == c) {
 				
 				temp[j] = strbytes[j];
 				
@@ -71,7 +71,7 @@ public class Reusability{
 		
 		System.out.println("Repeated characters in string " + class_for_reuseable_method_string_operations_under_dev.PrintValue() + " is : " );
 		
-		c.Repeated_character_in_String_using_Byte();
+		c.Repeated_character_in_String_using_Byte('e');
 	}
 	
 }
