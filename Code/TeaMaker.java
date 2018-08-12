@@ -4,6 +4,12 @@ interface tea{
 
 }
 
+interface cookies {
+	
+	void Cookie();
+	
+}
+
 class Lemontea implements tea{
 	
 	public void prepare_tea() {
@@ -24,6 +30,23 @@ class GreenTea implements tea{
 	
 }
 
+class Combo implements tea, cookies{
+	
+	public void prepare_tea(){
+		
+		System.out.println("Tea is prepared");
+		
+	}
+	
+	public void Cookie(){
+		
+		System.out.println("Cookies");
+		
+	}
+			
+}
+
+
 public class TeaMaker{
 	
 	public static void main(String[] args){
@@ -35,6 +58,14 @@ public class TeaMaker{
 		tea GT = new GreenTea();
 
 		GT.prepare_tea();
+		
+		tea tc = new Combo();
+		
+		tc.prepare_tea();
+		
+		cookies ck = new Combo();
+		
+		ck.Cookie();
 		
 	}
 	
