@@ -14,13 +14,27 @@ class Lemontea implements tea{
 	
 }
 
+class GreenTea implements tea{
+	
+	public void prepare_tea() {
+		
+		System.out.println("Green Tea is prepared");
+		
+	}
+	
+}
+
 public class TeaMaker{
 	
 	public static void main(String[] args){
 		
-		tea T = new Lemontea();
+		tea LT = new Lemontea();
 		
-		T.prepare_tea();
+		LT.prepare_tea();
+			
+		tea GT = new GreenTea();
+
+		GT.prepare_tea();
 		
 	}
 	
