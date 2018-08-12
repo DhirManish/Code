@@ -20,13 +20,13 @@ class Message implements Print, PrintMsg, Show{
 
 	public void print() {
 	
-		System.out.println("Hello");
+		System.out.println("Ambiguous Function");
 		
 	}
 	
 	public void Show() {
 		
-		System.out.println("Welcome");
+		System.out.println("Extended");
 		
 	}
 
