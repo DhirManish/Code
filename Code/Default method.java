@@ -21,3 +21,16 @@ class imp implements Default_interface{
 	
 }
 
+public class Default Method{
+	
+	public static void main(String[] args){
+		
+		imp i = new imp();
+		
+		i.declare_msg_function();
+		
+		i.msg();
+			
+	}
+	
+}
