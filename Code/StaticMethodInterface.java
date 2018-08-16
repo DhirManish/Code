@@ -28,7 +28,7 @@ public class StaticMethodInterface{
 	
 		msg.printmsg();
 		
-		System.out.println(staticmethod.square(4));
+		System.out.println(staticmethod.square(5));
 	
 	}
 	
