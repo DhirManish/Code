@@ -15,6 +15,9 @@ public class Overloadingclass {
 		Overloading OL = new Overloading();
 		
 		System.out.println(OL.multiply(10,10));
+		
+		System.out.println(OL.multiply(20,10));
+		
 	
 	}
 	
