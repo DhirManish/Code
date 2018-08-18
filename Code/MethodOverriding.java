@@ -28,7 +28,7 @@ public class MethodOverriding {
 		
 		Method2 M = new Method2();
 		
-		System.out.println(M.sum(1.0, 2.0));
+		System.out.println(M.sum(2.0, 2.0));
 
 	}
 	
