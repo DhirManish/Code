@@ -6,11 +6,11 @@ class FinalKey {
 	
 	//trying to reinitialize the value keyword
 	
-	void reinit(){
+	//void reinit(){
 		
-		value = 2;
+		//value = 2;
 		
-	}
+	//}
 	
 	//FinalClass.java:11: error: cannot assign a value to final variable value
     //            value = 2;
@@ -26,7 +26,7 @@ public class FinalClass {
 		
 		System.out.println(K.value);
 		
-		K.reinit();
+		//K.reinit();
 	
 	}
 
