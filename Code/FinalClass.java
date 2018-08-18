@@ -16,7 +16,6 @@ class FinalKey {
     //            value = 2;
     //            ^
 	//1 error
-	
 }
 
 public class FinalClass {
