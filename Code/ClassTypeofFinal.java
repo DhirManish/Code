@@ -14,15 +14,15 @@ final class FinalClass {
 //1 error
 
 
-class childclass extends FinalClass{
+//class childclass extends FinalClass{
 	
-	void run(){ 
+	//void run(){ 
 	
-		System.out.println("this won't be working");
+		//System.out.println("this won't be working");
 		
-	}
+	//}
 	
-}
+//}
 
 public class ClassTypeofFinal {
 
@@ -32,9 +32,9 @@ public class ClassTypeofFinal {
 		
 		FC.FC_Method();
 		
-		childclass cc = new childclass();
+		//childclass cc = new childclass();
 		
-		cc.run();
+		//cc.run();
 		
 	}
 
