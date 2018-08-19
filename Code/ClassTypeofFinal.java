@@ -9,6 +9,15 @@ final class FinalClass {
 }
 
 
+class childclass extends FinalClass{
+	
+	void run(){ 
+	
+		System.out.println("this won't be working");
+		
+	}
+	
+}
 
 public class ClassTypeofFinal {
 
@@ -17,6 +26,10 @@ public class ClassTypeofFinal {
 		FinalClass FC = new FinalClass();
 		
 		FC.FC_Method();
+		
+		childclass cc = new childclass();
+		
+		cc.run();
 		
 	}
 
