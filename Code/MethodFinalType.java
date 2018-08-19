@@ -19,6 +19,9 @@ class AnotherClass extends FinalMethod{
 //	void method_final(){
 		//	System.out.println("Finalized");
 	//}
+	void child_Class() {
+	System.out.println("Override failed in child class");
+	}
 	
 }
 
@@ -26,7 +29,7 @@ public class MethodFinalType {
 	
 	public static void main(String[] args){
 		
-		AnotherClass AC = new AnotherClass();
+		
 			
 		//AC.method_final();
 		
@@ -34,6 +37,10 @@ public class MethodFinalType {
 		
 		FM.method_final();
 		
+		AnotherClass AC = new AnotherClass();
+
+		AC.child_Class();
+	
 	}
 		
 }
