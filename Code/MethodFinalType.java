@@ -1,7 +1,9 @@
 class FinalMethod {
 
 	final void method_final() {
+		
 		System.out.println("Finalized");
+	
 	}
 
 }
@@ -16,11 +18,14 @@ class FinalMethod {
 
 class AnotherClass extends FinalMethod{
 	
-//	void method_final(){
-		//	System.out.println("Finalized");
+	//void method_final(){
+	//	System.out.println("Finalized");
 	//}
+	
 	void child_Class() {
+	
 	System.out.println("Override failed in child class");
+	
 	}
 	
 }
@@ -29,8 +34,6 @@ public class MethodFinalType {
 	
 	public static void main(String[] args){
 		
-		
-			
 		//AC.method_final();
 		
 		FinalMethod FM = new FinalMethod();
