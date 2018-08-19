@@ -8,6 +8,11 @@ final class FinalClass {
 	
 }
 
+//ClassTypeofFinal.java:12: error: cannot inherit from final FinalClass
+//class childclass extends FinalClass{
+//                         ^
+//1 error
+
 
 class childclass extends FinalClass{
 	
