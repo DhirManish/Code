@@ -10,11 +10,11 @@ class Uninit_Var_Name {
     //            ^
 	//1 error
 	
-	void message(){
+	//void message(){
 	
-		string_name = "Hello";
+		//string_name = "Hello";
 		
-	}
+	//}
 	
 }
 
