@@ -31,7 +31,6 @@ public class InheritFinalclassMethod {
 		
 		IFCM.print_message();
 			
-		
 	}
 	
 }
