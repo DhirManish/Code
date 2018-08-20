@@ -2,7 +2,6 @@ class Uninit_Var_Name {
 	
 	final String string_name;
 
-
 	//results 
 	
 	//FinalVar.java:7: error: cannot assign a value to final variable string_name
@@ -16,15 +15,27 @@ class Uninit_Var_Name {
 		
 	//}
 	
+	//initializing the final variable in constructor
+	
+	Uninit_Var_Name(){
+		
+		string_name = "Hello!!";
+		
+		System.out.println(string_name);
+		
+	}
+	
 }
 
 public class FinalVar {
 
 	public static void main(String[] args){
 	
-		Uninit_Var_Name UV = new Uninit_Var_Name();
+		//Uninit_Var_Name UV = 
 		
-		UV.message();
+		new Uninit_Var_Name();
+		
+		//UV.message();
 		
 	}
 	
