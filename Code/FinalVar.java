@@ -29,13 +29,9 @@ class Uninit_Var_Name {
 
 public class FinalVar {
 
-	public static void main(String[] args){
-	
-		//Uninit_Var_Name UV = 
+	public static void main(String[] args){ 
 		
 		new Uninit_Var_Name();
-		
-		//UV.message();
 		
 	}
 	
