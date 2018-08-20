@@ -25,10 +25,6 @@ class Inherit_FinalClass_Method extends FinalClass_Method {
 public class InheritFinalclassMethod {
 
 	public static void main(String[] args){
-	
-		//FinalClass_Method FC = new FinalClass_Method();
-		
-		//FC.work();
 		
 		Inherit_FinalClass_Method IFCM = new Inherit_FinalClass_Method();
 		
