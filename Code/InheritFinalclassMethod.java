@@ -1,19 +1,22 @@
 class FinalClass_Method {
+
 	
-	final void work() {
+	final String work(){
 		
-		String message = "Working";
+		return "Working";
 		
 	}
 
 }
 
 
-class Inherit_FinalClass_Method {
+class Inherit_FinalClass_Method extends FinalClass_Method {
 
 	void print_message() {
 		
-		System.out.println(message);
+		FinalClass_Method FMC = new FinalClass_Method();
+		
+		System.out.println(FMC.work());
 		
 	}
 
@@ -21,13 +24,13 @@ class Inherit_FinalClass_Method {
 
 public class InheritFinalclassMethod {
 
-	public static void main(Sting[] args){
+	public static void main(String[] args){
 	
 		FinalClass_Method FC = new FinalClass_Method();
 		
 		FC.work();
 		
-		InheritFinalclassMethod IFCM = new InheritFinalclassMethod();
+		Inherit_FinalClass_Method IFCM = new Inherit_FinalClass_Method();
 		
 		IFCM.print_message();
 			
