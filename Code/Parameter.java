@@ -6,6 +6,13 @@ class FinalParam{
 		
 		n = n + 1;
 		
+		//adding the result of changes
+		
+		//Parameter.java:7: error: final parameter n may not be assigned
+        //        n = n + 1;
+        //        ^
+		//1 error
+		
 		return n*n;
 			
 	}
