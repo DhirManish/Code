@@ -12,7 +12,7 @@ class ChildKey extends SuperKey {
 		
 		System.out.println(color);
 		
-		System.out.println(Super.color);
+		System.out.println(super.color);
 		
 	}
 	
