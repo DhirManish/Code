@@ -12,7 +12,7 @@ class AnotherMethod extends SuperMethod {
 	
 	void Method1() {
 		
-		//System.out.println("Method called from AnotherMethod class");
+		System.out.println("Method called from AnotherMethod class");
 		
 	}
 	
