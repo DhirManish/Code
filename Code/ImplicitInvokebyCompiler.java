@@ -24,8 +24,8 @@ public class ImplicitInvokebyCompiler{
 		
 		Practitioner pr = new Practitioner();
 		
+		//Result
 		//D:\Code>java ImplicitInvokebyCompiler
-		
 		//Value 1
 		//Value 2
 		
