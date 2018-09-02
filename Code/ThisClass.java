@@ -42,7 +42,6 @@ public class ThisClass{
 		
 		SC.display();
 		
-		
 	}
 
 }
