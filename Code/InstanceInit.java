@@ -8,6 +8,7 @@ class Instance{
 		
 	}
 		
+		
 	{
 		i = 100;
 	}
