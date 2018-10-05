@@ -1,4 +1,4 @@
-//https://www.javatpoint.com/collections-in-java
+//https://www.javatpoint.com/collections-in-java.
 
 import java.util.*;
 
